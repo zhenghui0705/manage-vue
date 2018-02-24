@@ -1,0 +1,5 @@
+*{padding: 0;margin: 0;}
+ul li{list-style: none;}
+a{text-decoration: none;color: #000;}
+
+.fixed{position: fixed;font-family: 'Courier New', Courier, monospace;font-weight: 600;}
