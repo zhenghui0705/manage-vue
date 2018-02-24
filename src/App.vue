@@ -1,15 +1,9 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img src="./assets/images/Pacman-1s-200px.gif">
     <router-view/>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'App'
-}
-</script>
 
 <style>
 @import url('./assets/css/public.css');

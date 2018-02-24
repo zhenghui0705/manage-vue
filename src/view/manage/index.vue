@@ -35,8 +35,7 @@
 </template>
 <style scoped>
 .manage {
-  margin: 0 auto;
-  width: 100%;
+  margin-top: 24px;
 }
 table {
   text-align: center;
@@ -49,6 +48,8 @@ table {
 .input-area input {
   border: 2px solid #c3b8b8;
   padding: 2px 10px;
+  width: 100px;
+  margin: 0 10px;
 }
 .manage button {
   border: none;
