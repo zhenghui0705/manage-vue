@@ -1,6 +1,6 @@
 <template>
   <div class="top">
-      <h1>欢迎来到小霸王管理系统</h1>
+      <h1>欢迎来到小霸王垃圾管理系统</h1>
       <h2>&copy 2018 by zhenghui</h2>
       <footer-nav v-bind:class="{'lsIndex':isNowPage}"></footer-nav>
   </div>

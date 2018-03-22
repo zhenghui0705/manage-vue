@@ -95,7 +95,6 @@ export default {
       nameValue: '',
       newName: '',
       editId: 0
-      
     };
   },
   methods: {
@@ -113,7 +112,7 @@ export default {
         this.peoples.push(data);
       }
     },
-    del(e) {
+    del(e) { 
       var id = e.target.offsetParent.id;
       this.peoples.splice(id, 1);
     },
@@ -135,7 +134,6 @@ export default {
             this.showEdit = false
         }
     }
-    
   }
 };
 </script>

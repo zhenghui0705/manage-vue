@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Index from '../view/index/index'
 import Manage from '../view/manage/index'
 import Set from '../view/set/index'
+import Tagbar from '../view/tagbar/index'
 
 
 Vue.use(Router)
@@ -23,6 +24,11 @@ export default new Router({
       path: '/set',
       name: 'Set',
       component: Set
+    },
+    {
+      path: '/tagbar',
+      name: 'Tagbar',
+      component: Tagbar
     }
   ]
 })

@@ -1,6 +1,8 @@
 <template>
   <div>
-      <h2>this is new content!</h2>
+      <div class="bg-bubbles">
+        <li v-for="i in 10"></li>
+      </div>
       <footer-nav v-bind:class="{'lsSet':isNowPage}"></footer-nav>
   </div>
 </template>
